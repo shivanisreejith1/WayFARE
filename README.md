@@ -1,12 +1,12 @@
 # Wayfare : Getaways Leads
 
 A conversational assistant that chats naturally about travel plans, extracts structured
-trip details as they come up, continuously scores buying intent, and — once someone
-looks like a real customer — asks for contact details and stores a qualified lead.
+trip details as they come up, continuously scores buying intent, and  once someone
+looks like a real customer  asks for contact details and stores a qualified lead.
 
 - **Frontend:** React (Vite)
 - **Backend:** Node.js / Express
-- **LLM:** [Groq](https://console.groq.com/keys) (`llama-3.3-70b-versatile` by default) — free
+- **LLM:** [Groq](https://console.groq.com/keys) 
   API key, OpenAI-compatible endpoint, very low latency
 - **Storage:** MongoDB (Mongoose)
 - **Deployed:** Render (frontend as a static site / web service, backend as a separate web
