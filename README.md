@@ -1,4 +1,4 @@
-# Wayfare — AI-Powered Travel Lead Assistant
+# Wayfare : Getaways Leads
 
 A conversational assistant that chats naturally about travel plans, extracts structured
 trip details as they come up, continuously scores buying intent, and — once someone
