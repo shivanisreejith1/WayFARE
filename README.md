@@ -9,9 +9,7 @@ looks like a real customer  asks for contact details and stores a qualified lead
 - **LLM:** [Groq](https://console.groq.com/keys) 
   API key, OpenAI-compatible endpoint, very low latency
 - **Storage:** MongoDB (Mongoose)
-- **Deployed:** Render (frontend as a static site / web service, backend as a separate web
-  service, MongoDB Atlas free tier for storage)
-
+- **Deployed:** Render
 ---
 
 ## 1. How it works (architecture)
