@@ -1,0 +1,55 @@
+:root {
+  --color-bg: #0e1b2a;
+  --color-surface: #142639;
+  --color-surface-2: #1b3550;
+  --color-border: #274363;
+  --color-card: #fbf7ee;
+  --color-card-ink: #1c2b3a;
+  --color-card-muted: #7a7362;
+  --color-accent: #e8a33d;
+  --color-accent-soft: #e8a33d33;
+  --color-teal: #4fb3a9;
+  --color-text: #edeff2;
+  --color-text-muted: #8fa3b8;
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(circle at 20% 0%, #16304a 0%, var(--color-bg) 55%);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
